@@ -26,7 +26,7 @@ export default function IndexPage(props: IndexPageProps) {
 
       <Layout preview={preview} loading={loading}>
         <Container>
-          <BlogHeader title={title} description={description} level={1} />
+        <BlogHeader title={title} description={description} level={1} />
           {heroPost && (
             <HeroPost
               title={heroPost.title}
@@ -39,7 +39,7 @@ export default function IndexPage(props: IndexPageProps) {
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
-        {/* <IntroTemplate removes the "Next steps with sanity and vercel block"/>*/}
+        {/* <IntroTemplate removes the "Next steps with sanity and vercel"/>*/}
       </Layout>
     </>
   )

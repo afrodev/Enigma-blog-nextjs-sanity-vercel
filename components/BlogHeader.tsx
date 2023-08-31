@@ -15,7 +15,7 @@ export default function BlogHeader({
   switch (level) {
     case 1:
       return (
-        <header className="mb-10 mt-16 flex flex-col items-center md:mb-12 md:flex-row md:justify-between">
+        <header className="bg-black text-accent-2 p-4 flex justify-between items-center w-full">
           <h1 className="text-6xl font-bold leading-tight tracking-tighter md:pr-8 md:text-8xl">
             {title}
           </h1>
@@ -24,17 +24,55 @@ export default function BlogHeader({
           >
             <PortableText value={description} />
           </h4>
+          <nav>
+            <ul className="flex space-x-4">
+              <li>
+                <Link href="/about" legacyBehavior>
+                  <a className="text-accent-2 hover:underline">About</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/posts" legacyBehavior>
+                  <a className="text-accent-1 hover:underline">Posts</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" legacyBehavior>
+                  <a className="text-accent-1 hover:underline">Contact</a>
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </header>
       )
 
     case 2:
       return (
-        <header>
-          <h2 className="mb-20 mt-8 text-2xl font-bold leading-tight tracking-tight md:text-4xl md:tracking-tighter">
-            <Link href="/" className="hover:underline">
-              {title}
+        <header className="bg-black text-white p-4 flex justify-between items-center w-full">
+          <h1 className="text-accent-2 text-2xl font-bold">
+            <Link href="/" legacyBehavior>
+              <a>My Blog</a>
             </Link>
-          </h2>
+          </h1>
+          <nav>
+            <ul className="flex space-x-4">
+              <li>
+                <Link href="/about" legacyBehavior>
+                  <a className="text-accent-1 hover:underline">About</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/posts" legacyBehavior>
+                  <a className="text-accent-1 hover:underline">Posts</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" legacyBehavior>
+                  <a className="text-accent-1 hover:underline">Contact</a>
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </header>
       )
 
