@@ -1,6 +1,6 @@
 // All the demo data that used as fallbacks when there's nothing in the dataset yet
 
-export const title = 'Enigma HiØ Studenforening' // was Blog. before
+export const title = 'Blog.'
 
 export const description = [
   {
@@ -54,4 +54,4 @@ export const description = [
   },
 ]
 
-export const ogImageTitle = 'IT-Studentforeningen Enigma ved Høgskolen i Østfold'
+export const ogImageTitle = 'A Next.js Blog with a Native Authoring Experience'
