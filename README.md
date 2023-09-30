@@ -1,10 +1,12 @@
 # A Next.js Blog with a Native Authoring Experience<!-- omit in toc -->
 
-This starter is a statically generated blog that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content. It comes with a native Sanity Studio that offers features like real-time collaboration, instant side-by-side content previews, and intuitive editing.
+[www.enigmahiof.no][https://www.enigmahiof.no/]
+
+This website is a statically generated blog that uses [Next.js][nextjs] for the frontend and [Sanity][sanity-homepage] to handle its content. It comes with a native Sanity Studio that offers features like real-time collaboration, instant side-by-side content previews, and intuitive editing.
 
 The Studio connects to Sanity Content Lake, which gives you hosted content APIs with a flexible query language, on-demand image transformations, powerful patching, and more. You can use this starter to kick-start a blog or learn these technologies.
 
-[![Deploy with Vercel](https://vercel.com/button)][vercel-deploy]
+
 
 > **Note**
 >
@@ -63,27 +65,17 @@ The Studio connects to Sanity Content Lake, which gives you hosted content APIs 
 
 ## Configuration
 
-### Step 1. Set up the environment
 
-Use the Deploy Button below. It will let you deploy the starter using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-sanity-example) as well as connect it to your Sanity Content Lake using [the Sanity Vercel Integration][integration].
+### Step 1. Set up the project locally and contribute
 
-[![Deploy with Vercel](https://vercel.com/button)][vercel-deploy]
+[Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) that was created for you on your GitHub account. Once cloned, go to step 2:
 
-### Step 2. Set up the project locally
 
-[Clone the repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) that was created for you on your GitHub account. Once cloned, run the following command from the project's root directory:
+Ask me for the environment variables needed to connect Next.js and the Studio to this Sanity project:
 
-```bash
-npx vercel link
-```
+@monzrrr on discord
 
-Download the environment variables needed to connect Next.js and the Studio to your Sanity project:
-
-```bash
-npx vercel env pull
-```
-
-### Step 3. Run Next.js locally in development mode
+### Step 2. Run Next.js locally in development mode
 
 ```bash
 npm install && npm run dev
@@ -103,13 +95,13 @@ git commit
 git push
 ```
 
-Alternatively, you can deploy without a `git` hosting provider using the Vercel CLI:
-
-```bash
-npx vercel --prod
-```
+Then make a pull request so we can merge our branches.
 
 ## Questions and Answers
+
+### It doesn't work! Where can I get help?
+
+You do not need to host it on your own. Simply send me the pull request and your changes will update the main website. 
 
 ### It doesn't work! Where can I get help?
 
