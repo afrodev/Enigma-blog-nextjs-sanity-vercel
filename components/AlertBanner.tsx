@@ -2,6 +2,8 @@
 import Container from 'components/BlogContainer'
 import { useSyncExternalStore } from 'react'
 
+/* I'm only making this change to allow sanity cms to upload Fredrikstad post on push to origin*/ 
+
 const subscribe = () => () => {}
 
 export default function Alert({
